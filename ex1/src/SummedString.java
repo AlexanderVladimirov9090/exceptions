@@ -20,6 +20,6 @@ public class SummedString {
     } catch (Exception e) {
       e.printStackTrace();
     }
-    return "Not a number.";
+    return "Not ea number.";
   }
 }

@@ -7,7 +7,6 @@ public class DemoSummedString {
         SummedString strings = new SummedString();
 
         try {
-
             System.out.println(strings.sum("a9", "-2"));
         } catch (NotIntegerException e) {
             e.printStackTrace() ;
