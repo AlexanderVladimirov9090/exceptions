@@ -21,6 +21,5 @@ public class CheckPoint {
         if (number < min || number > max) {
             throw new OutOfBoundException();
         }
-
     }
 }
