@@ -21,6 +21,7 @@ public class Demo {
 
             fixedList.remove();
             System.out.println();
+            System.out.println();
             fixedList.printAllElements();
             System.out.println();
             fixedList.remove();
@@ -39,6 +40,5 @@ public class Demo {
         catch (Exception e){
             e.printStackTrace();
         }
-
     }
 }

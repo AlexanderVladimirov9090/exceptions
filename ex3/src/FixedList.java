@@ -14,6 +14,7 @@ public class FixedList {
     /**
      * Adding item in items array.
      *
+     *
      * @param item Object that is added
      * @throws ListFullException
      */
@@ -33,7 +34,7 @@ public class FixedList {
      */
     public void remove() throws ListEmptyException {
 
-        if (items[index - 1].equals(null)) {
+        if (items[index - 1]==null) {
             throw new ListEmptyException();
         } else {
             items[index - 1] = null;
